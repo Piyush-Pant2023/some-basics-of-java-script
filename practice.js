@@ -1,0 +1,13 @@
+let s="PIYUSh PANT is a very sincear student"
+console.log(s.toUpperCase())
+console.log(s.toLowerCase())
+console.log(s.startsWith("s"))
+console.log(s.includes("PIY"))
+console.log(s.search("PANT"))
+console.log(s.replace("is","was"))
+console.log(s.replace(/is/g,"was"))
+console.log(s.indexOf("PIYUSh"))
+console.log(s.lastIndexOf("PIYUSh"))
+console.log(s.charAt(4))
+console.log(s.charCodeAt(1))
+console.log(String.fromCharCode(110))
